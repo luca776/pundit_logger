@@ -25,12 +25,11 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ['lib']
   spec.add_dependency "pundit", "~> 1.0"
-  spec.add_dependency "rails", "~> 5.0"
+  spec.add_dependency "rails", "> 5", "< 7"
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec-rails", "~> 3.0"
-  spec.add_development_dependency "rails", "~> 5.0"
   spec.add_development_dependency "sqlite3", '~> 1.3', '< 1.4'
   spec.add_development_dependency "pry"
 end
